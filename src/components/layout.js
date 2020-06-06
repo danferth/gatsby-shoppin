@@ -8,9 +8,9 @@ import Tally from "./tally"
 
 const Layout = props => {
   return (
-    <div>
+    <div className="App">
       <Header title={props.title} description={props.description}></Header>
-      <div className="App">
+      <div className="content">
         <Screen></Screen>
         <Digits></Digits>
         <Maths></Maths>
